@@ -1,0 +1,130 @@
+img:hover {
+  opacity: 0.75;
+}
+
+img {
+  border-radius: 3px;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: black;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+a {
+  display: block;
+}
+
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.project_article {
+  margin-right: 10px;
+}
+
+.email_phone {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.user_dates .studies_dates .description {
+  text-align: left !important;
+}
+
+.studies .container-studies div ul  {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.phone_number {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container-studies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.studies_dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.studies_dates .description {
+  text-align: left;
+}
+
+.articles {
+  display: flex;
+  flex-direction: row;
+}
+
+.article_actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.article_actions .commentaires {
+  background: black;
+  color: white;
+}
+
+.contact_form {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_form input {
+  border: 1px solid red;
+  width: 200px;
+}
+
+.contact_form textarea {
+  width: 500px;
+}
+
+.up_down {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  text-align: right;
+}
+
+.submit input {
+  background-color: black;
+  color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.dev {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 600px) {
+  body{
+    background-color: white;
+  }
+}
